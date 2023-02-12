@@ -1,0 +1,28 @@
+fun main() {
+    val myAge = 27
+    var averageAge = 27.0
+    averageAge = (averageAge + 30) / 2
+    println("The average Age is $averageAge")
+}
+
+fun main() {
+    val testNumber = 7
+    var evenOdd = testNumber % 2
+    println("Before assigning number $evenOdd")
+    evenOdd = 27
+    println("After assigning 27 $evenOdd")
+    evenOdd = 28
+    println("Before assigning 28 $evenOdd")
+}
+
+        fun main() {
+        // Create a variable called answer and initialize it with the value 0.
+        // Increment it by 1. Add 10 to it. Multiply it by 10. Then, shift it to the right by 3.
+        // After all of these operations, what's the answer?
+        var answer = 0
+        answer = answer + 1
+        answer = answer + 10
+        answer = answer * 10
+        answer = answer shr 3
+        println("answer $answer")
+}
